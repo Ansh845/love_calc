@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love calculator</title>
+</head>
+<body>
+     <h1>love calculator</h1>
+    <label for="in">Enter your name</label>
+    <input type="text" name="" id="in">
+    <br><br><hr><hr>
+    <label for="in2">Enter your partner's name</label>
+    <input type="text" name="" id="in2">
+    <button onclick="ans()"">Find out</button>
+   <h2>Percentage = <p id="answer"> </p></h2>
+
+<script>
+    const in1 = document.getElementById("in").value; 
+
+    function ans(){
+if(in1 == "Heer"){
+    
+}
+
+    var answer = Math.random();
+answer = answer*100;
+answer = Math.floor(answer);
+document.getElementById("answer").innerHTML = answer;
+    }
+    
+</script>
+</body>
+</html>
